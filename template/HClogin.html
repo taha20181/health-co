@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="medicare.css">
+</head>
+<body class="back">
+    <div class="container">
+        <h1 align="center">Book an Appointment</h1>
+        <div class="row d-flex justify-content-around">
+        <form class="col-lg-6">
+            <div class="container">
+            <label for="name">Name*:</label>
+            <input id="name" type="text" name="name" placeholder="Name" required>
+                <hr>
+            <label for="email">Email*:</label>
+            <input id="email" type="email" name="email" placeholder="example@xyz.com" required>
+                <hr>
+            <label>Phone No*:   </label>
+            <input id="number" type="email" placeholder="Contact no" required>
+                <hr>
+            <label for="age" >Age*:</label>
+            <input type="number" required>
+            <hr>
+            <label for="security question">Have you visited us before*: </label>
+            <label>Yes: </label>
+            <input type="radio" name="gender">
+            <label>    No: </label>
+            <input type="radio" name="gender">
+            <hr>
+            <label>Appointment Date:*</label>
+            <input id="datetimepicker" type="date" placeholder="dd-mm-yyyy" required>
+                <hr>
+                <p><label for="text">Enter text here:</label></p>
+            <textarea rows="5" cols="20">Please enter text here</textarea>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            </div>
+            <hr>
+        </form>
+        </div>
+
+        <hr>
+    </div>
+</body>
+</html>

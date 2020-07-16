@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: white;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+main {
+    margin-top: 50px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 100%;
+    color: #7751ff;
+}
+
+
+h2 {
+    font-weight: 600;
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 130%;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+/* ---------- Navbar ---------- */ 
+.navbar-brand {
+    flex-grow: 1;
+}
+
+.navbar-brand .brand-title {
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.navbar-form {
+    flex-grow: .5;
+}
+
+.navbar-form .form-control {
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-collapse .nav li a:link,
+.navbar-collapse .nav li a:visited {
+    color: white;
+}
+
+.navbar-collapse .nav li a:hover,
+.navbar-collapse .nav li a:active {
+    border-bottom: 2px solid steelblue;
+    background-color: inherit !important;
+}
+
+/* 
+@font-size-h1:            floor((@font-size-base * 2.6));
+@font-size-h2:            floor((@font-size-base * 2.15));
+@font-size-h3:            ceil((@font-size-base * 1.7)); 
+@font-size-h4:            ceil((@font-size-base * 1.25)); 
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.85)); */
+
+/* ---------- Banner ---------- */ 
+
+.banner{
+    background: lightgray;
+    background-image: url('../../images/IMG_6599.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 100px;
+}
+
+.banner-section .container .banner p {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.banner-section .container .banner a:link,
+.banner-section .container .banner a:visited {
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    padding: 5px;
+    background-color: steelblue;
+}
+
+.banner-section .container .banner a:hover,
+.banner-section .container .banner a:active {
+    border: 1px solid #3c709c;
+    background-color: #3c709c;
+}
+
+/* ---------- Service section ---------- */ 
+
+.service-section__card {
+    box-shadow: -1px 1px 5px 5px #d7d7d7;
+    border-radius: 10px;
+}
+
+.service-section__table {
+    box-shadow: -1px 1px 5px 5px #d7d7d7;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.table {
+    margin-bottom: 25px;
+}
+
+.table-title {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-button a:link,
+.table-button a:visited {
+    text-decoration: none;
+    color: black;
+    background-color: steelblue;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.table-button a:hover,
+.table-button a:active {
+    background-color: #3c709c;
+}
+
+/* ---------- About us ---------- */ 
+
+.aboutus{
+    border-bottom: 3px solid grey;
+    background: #abc
+    margin-bottom: 80px;
+}
+
+.para{
+    font-family: georgia;
+    line-height: 40px;
+}
+
+.container-aboutus{
+    margin-bottom: 50px;
+}
+
+.about-image__conatiner {
+    margin-bottom: 50px
+}
+
+/* ---------- Footer ---------- */ 
+
+.footer-brand-title {
+    display: flex;
+    align-items: center;
+}
+
+.footer-brand-title .navbar-brand {
+    font-size: 200%;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-location-content,
+.footer-open-timings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-emergency-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-location-col,
+.footer-timing-col,
+.footer-emerg-col {
+    padding: 50px 10px 20px 10px;
+}

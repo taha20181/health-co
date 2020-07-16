@@ -1,0 +1,124 @@
+body{
+    background: #aabbcc;
+    background: url('../../images/childoctor.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+
+.back{
+
+background: url('../../images/childoctor.jpg');
+    background-repeat: no-repeat;
+    background-position: center
+}
+h1{
+	font-family: georgia;
+	padding-top:20px;
+	padding-bottom:30px;
+	border-bottom: 3px solid black;
+}
+
+h1:hover{
+	color: green;
+}
+
+img{
+	width: 300px;
+	height: 200px;
+	margin: 5px;
+}
+
+li{
+	padding-right: 50px;
+	display: block;
+	float: left;
+}
+
+
+form{
+	padding-top: 20px;
+}
+
+.xyz{
+	color: white;
+}
+/*body{
+	background-color: rgb(180,180,255)
+}*/
+
+.column{
+	float: left;
+}
+.column.left{
+	width: 15%;
+}
+
+.column.middle{
+	width: 80%;
+}
+
+.column.right{
+	width: 5%;
+}
+
+ol{
+	width: 200px;
+	/*background-color: rgb(160,160,255);*/
+}
+
+ol li {
+  display: block;
+  color: #000;
+  padding: 20px;
+  text-decoration: none;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+.vertical{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.horizontal{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.xyz{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.abc{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.lowerVertical{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+input{
+
+	margin-left: 30px;
+}
+
+button{
+    margin-top: 50px;
+    background: grey;
+    margin-left: 25px;
+}
+
+label{
+    font-family:italic;
+    color: black;
+    text-decoration: underline;
+}
