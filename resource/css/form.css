@@ -71,12 +71,14 @@ h4 {
 .navbar-collapse .nav li a:link,
 .navbar-collapse .nav li a:visited {
     color: white;
+    border-bottom: 2px solid transparent;
 }
 
 .navbar-collapse .nav li a:hover,
 .navbar-collapse .nav li a:active {
     border-bottom: 2px solid steelblue;
     background-color: inherit !important;
+    transition: .3s ease-in-out;
 }
 
 /* 
@@ -170,7 +172,7 @@ h4 {
 
 .aboutus{
     border-bottom: 3px solid grey;
-    background: #abc
+    background: #abc;
     margin-bottom: 80px;
 }
 

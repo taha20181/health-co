@@ -2,21 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Appointment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="medicare.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="">
+
+    <title>HealthCo | Appointment</title>
 </head>
 <body class="back">
-    <div class="container">
-        <h1 align="center">Book an Appointment</h1>
+    <div class="container p-5">
+        <h1 class="text-center pb-5">Book an Appointment</h1>
         <div class="row d-flex justify-content-around">
         <form class="col-lg-6">
             <div class="container">
-            <label for="name">Name*:</label>
-            <input id="name" type="text" name="name" placeholder="Name" required>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Name" required>
+            </div>
                 <hr>
-            <label for="email">Email*:</label>
-            <input id="email" type="email" name="email" placeholder="example@xyz.com" required>
+            <div class="form-control">
+                <label for="email">Email*:</label>
+                <input id="email" type="email" name="email" placeholder="example@xyz.com" required>
+            </div>
                 <hr>
             <label>Phone No*:   </label>
             <input id="number" type="email" placeholder="Contact no" required>
